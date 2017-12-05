@@ -1,0 +1,15 @@
+---
+title: "Roadmap for an animal migration explorer using weather radar data"
+author: "Peter Desmet, Hans van Gasteren, Judy Shamoun-Baranes"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+knit: (function(input_file, encoding) { rmarkdown::render(input_file, encoding = encoding, output_file = "../docs/index.html")})
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
