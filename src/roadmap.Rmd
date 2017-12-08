@@ -8,10 +8,24 @@ output:
     toc_depth: 4
     toc_float: true
     theme: flatly
+    css: "custom.css"
 knit: (function(input_file, encoding) { rmarkdown::render(input_file, encoding = encoding, output_file = "../docs/index.html")})
 ---
 
-```{r setup, include=FALSE}
+```{r editor_note, include = FALSE}
+# NOTE FOR MAINTAINING THIS DOCUMENT
+#
+# If a goal is achieved, wrap the "term" in double tildes:
+#
+# * ~~**Short-term**~~: this goal is achieved
+# * **Mid-term**: this one is not yet achieved
+#
+# This will add emojis via css (or if no css is used, cross it out).
+#
+# Do not use bold to emphasize text IN a goal, use _italic_ instead.
+```
+
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -23,7 +37,7 @@ The target audience for this document are ENRAM researchers and developers. The 
 
 The [European Network for the Radar Surveillance of Animal Movement (ENRAM)](http://enram.eu/) is an Action initiated by the [COST Programme](http://cost.eu/) (European Cooperation in Science and Technology) from October 2013 until October 2017. Its goal is to better understand animal migration at a European scale by making use of a network of weather radars. Visualizations are an essential tool for researchers to explore the data this network will generate and to compare those with environmental data.
 
-This document is a summary of discussions and ideas by Working Group 3 (Visualizing Spatio-temporal Patterns of Animal Movement) of ENRAM, regarding features we want in those visualizations. For each feature, we list short-, mid- and long-term goals; goals in green have been achieved. We hope this document can serve as a roadmap for the development of these features, which - ideally - can happen as contained projects that contribute to a unified animal migration explorer and/or several specific visualization tools.
+This document is a summary of discussions and ideas by Working Group 3 (Visualizing Spatio-temporal Patterns of Animal Movement) of ENRAM, regarding features we want in those visualizations. For each feature, we list short-, mid- and long-term goals; goals in with a ✔ have been achieved. We hope this document can serve as a roadmap for the development of these features, which - ideally - can happen as contained projects that contribute to a unified animal migration explorer and/or several specific visualization tools.
 
 ## Initial sketch
 

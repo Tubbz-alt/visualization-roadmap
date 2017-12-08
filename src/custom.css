@@ -1,0 +1,22 @@
+/* CSS to apply emoji checkmarks to goals */
+
+.toc-content ul {
+    list-style: none;
+}
+
+/* By default, add "not achieved" emoji */
+.toc-content li strong:before {
+    content: "\2716 "; /* 2716 = ✖ or alternative: 274C = ❌ */
+    position: absolute;
+    margin-left: -2em;
+}
+
+/* If wrappred in ~~, add "achieved" emoji */
+.toc-content li del {
+    text-decoration: none;
+    }
+    .toc-content li del strong:before {
+        content: "\2714 "; /* 2714 = ✔ or alternative: 2705 = ✅ */
+        position: absolute;
+        margin-left: -2em;
+    }
