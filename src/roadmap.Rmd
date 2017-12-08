@@ -39,10 +39,6 @@ The [European Network for the Radar Surveillance of Animal Movement (ENRAM)](htt
 
 This document is a summary of discussions and ideas by Working Group 3 (Visualizing Spatio-temporal Patterns of Animal Movement) of ENRAM, regarding features we want in those visualizations. For each feature, we list short-, mid- and long-term goals; goals with a ✔ have been achieved. We hope this document can serve as a roadmap for the development of these features, which - ideally - can happen as contained projects that contribute to a unified animal migration explorer and/or several specific visualization tools.
 
-## Feedback
-
-Interested to tackle a goal? Want to get in touch? Leave us an issue in the [GitHub repository of this document](https://github.com/enram/visualization-roadmap/issues).
-
 ## Initial sketch
 
 ![Initial sketch drawn by Peter Desmet at the ENRAM meeting in Israel (February 2015)](images/sketch.jpg)
@@ -228,3 +224,7 @@ Useful for insect migration.
 * **Short-term**: -
 * **Mid-term**: In pause modus, temperatue is shown as a heatmap (cf. [Earth](https://earth.nullschool.net/#current/wind/surface/level/overlay=temp/orthographic)).
 * **Long-term**: The heatmap changes when the animation is in play modus.
+
+## Feedback
+
+Interested to tackle a goal? Want to get in touch? Leave us an issue in the [GitHub repository of this document](https://github.com/enram/visualization-roadmap/issues).
