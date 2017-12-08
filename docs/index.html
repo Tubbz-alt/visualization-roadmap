@@ -231,7 +231,7 @@ div.tocify {
 <div id="rationale" class="section level2">
 <h2>Rationale</h2>
 <p>The <a href="http://enram.eu/">European Network for the Radar Surveillance of Animal Movement (ENRAM)</a> is an Action initiated by the <a href="http://cost.eu/">COST Programme</a> (European Cooperation in Science and Technology) from October 2013 until October 2017. Its goal is to better understand animal migration at a European scale by making use of a network of weather radars. Visualizations are an essential tool for researchers to explore the data this network will generate and to compare those with environmental data.</p>
-<p>This document is a summary of discussions and ideas by Working Group 3 (Visualizing Spatio-temporal Patterns of Animal Movement) of ENRAM, regarding features we want in those visualizations. For each feature, we list short-, mid- and long-term goals; goals in with a ✔ have been achieved. We hope this document can serve as a roadmap for the development of these features, which - ideally - can happen as contained projects that contribute to a unified animal migration explorer and/or several specific visualization tools.</p>
+<p>This document is a summary of discussions and ideas by Working Group 3 (Visualizing Spatio-temporal Patterns of Animal Movement) of ENRAM, regarding features we want in those visualizations. For each feature, we list short-, mid- and long-term goals; goals with a ✔ have been achieved. We hope this document can serve as a roadmap for the development of these features, which - ideally - can happen as contained projects that contribute to a unified animal migration explorer and/or several specific visualization tools.</p>
 </div>
 <div id="initial-sketch" class="section level2">
 <h2>Initial sketch</h2>
@@ -246,7 +246,7 @@ div.tocify {
 <h3>Bird migration altitude profile data</h3>
 <p>Data = bird migration altitude profiles automatically derived from weather radar data. Ideally, these data are accessible as <strong>open data</strong>.</p>
 <ul>
-<li><del><strong>Short-term</strong></del>: Data from spring 2013 migration case study, covering 5 radars (from Belgium and the Netherlands) over 7 days. This dataset is available at <a href="https://github.com/enram/case-study/tree/master/data/bird-migration-altitude-profiles" class="uri">https://github.com/enram/case-study/tree/master/data/bird-migration-altitude-profiles</a>.</li>
+<li><del><strong>Short-term</strong></del>: Data from spring 2013 migration case study, covering 5 radars (from Belgium and the Netherlands) over 7 days. <em>This dataset is <a href="https://github.com/enram/case-study/tree/master/data/bird-migration-altitude-profiles">available</a>.</em></li>
 <li><strong>Mid-term</strong>: Data from a migration case study within the northwest flyway incorporating data from more than 5 operational weather radars from three or more countries.</li>
 <li><strong>Long-term</strong>: Near real-time data, covering all of Europe.</li>
 </ul>
@@ -263,7 +263,7 @@ div.tocify {
 <div id="radar-location-data-open-data" class="section level3">
 <h3>Radar location data (open data)</h3>
 <ul>
-<li><del><strong>Short-term</strong></del>: Radar locations (5) covering the spring 2013 migration case study. This dataset is available at <a href="https://github.com/enram/case-study/tree/master/data/radars" class="uri">https://github.com/enram/case-study/tree/master/data/radars</a>.</li>
+<li><del><strong>Short-term</strong></del>: Radar locations (5) covering the spring 2013 migration case study. <em>This dataset is <a href="https://github.com/enram/case-study/tree/master/data/radars">available</a>.</em></li>
 <li><strong>Mid-term</strong>: Radar locations covering the mid-term migration case study. This information will be available as metadata in the HDF files for the bird data. Once developed, easy to apply for long-term too.</li>
 <li><strong>Long-term</strong>: Radar location covering all of Europe (= entire OPERA network).</li>
 </ul>
@@ -272,9 +272,9 @@ div.tocify {
 <h3>Basemap data (open data)</h3>
 <p>The basemap would show country/lake borders, potentially topography such as mountain ranges.</p>
 <ul>
-<li><del><strong>Short-term</strong></del>: Basemap covering the spring 2013 migration case study. This dataset is available at <a href="https://github.com/enram/case-study/tree/master/data/basemap" class="uri">https://github.com/enram/case-study/tree/master/data/basemap</a>.</li>
-<li><del><strong>Mid-term</strong></del>: Basemap covering the migration case study. This dataset can be derived from <a href="https://github.com/enram/case-study/tree/master/data/basemap" class="uri">https://github.com/enram/case-study/tree/master/data/basemap</a>.</li>
-<li><del><strong>Long-term</strong></del>: Basemap covering all of Europe. This dataset can be derived from <a href="https://github.com/enram/case-study/tree/master/data/basemap" class="uri">https://github.com/enram/case-study/tree/master/data/basemap</a>.</li>
+<li><del><strong>Short-term</strong></del>: Basemap covering the spring 2013 migration case study. <em>This dataset is <a href="https://github.com/enram/case-study/tree/master/data/basemap">available</a>.</em></li>
+<li><del><strong>Mid-term</strong></del>: Basemap covering the migration case study. <em>This dataset can be <a href="https://github.com/enram/case-study/tree/master/data/basemap">derived</a>.</em></li>
+<li><del><strong>Long-term</strong></del>: Basemap covering all of Europe. <em>This dataset can be <a href="https://github.com/enram/case-study/tree/master/data/basemap">derived</a>.</em></li>
 </ul>
 </div>
 <div id="wind-data-open-data" class="section level3">
@@ -295,7 +295,7 @@ div.tocify {
 <h4>Basemap</h4>
 <p>The basemap should be styled in light grey (e.g. <a href="http://content.stamen.com/files/cartodb-squares-positron.jpg">Positron</a>), to easily render visualizations on top and display the visualization in bright rooms (e.g. for presentations).</p>
 <ul>
-<li><del><strong>Short-term</strong></del>: Vector data showing contours of countries and lakes.</li>
+<li><del><strong>Short-term</strong></del>: Vector data showing contours of countries and lakes. <em>Implemented in the <a href="http://enram.github.io/bird-migration-flow-visualization/viz/">bird flowviz v2</a>.</em></li>
 <li><strong>Mid-term</strong>: OpenStreetMap data, highlighting mountains and water bodies.</li>
 <li><strong>Long-term</strong>: Same as mid-term goal.</li>
 </ul>
@@ -303,15 +303,15 @@ div.tocify {
 <div id="map-zooming-and-panning" class="section level4">
 <h4>Map zooming and panning</h4>
 <ul>
-<li><del><strong>Short-term</strong></del>: Fixed map covering use case area.</li>
-<li><del><strong>Mid-term</strong></del>: Fixed map covering use case area. Switching between use cases reloads map.</li>
+<li><del><strong>Short-term</strong></del>: Fixed map covering use case area. <em>Implemented in the <a href="http://enram.github.io/bird-migration-flow-visualization/viz/">bird flowviz v1</a>.</em></li>
+<li><del><strong>Mid-term</strong></del>: Fixed map covering use case area. Switching between use cases reloads map. <em>Implemented in the <a href="http://enram.github.io/bird-migration-flow-visualization/viz/">bird flowviz v2</a>.</em></li>
 <li><strong>Long-term</strong>: Map covers all of Europe, at which point it becomes interesting to allow zooming and panning.</li>
 </ul>
 </div>
 <div id="data-selection" class="section level4">
 <h4>Data selection</h4>
 <ul>
-<li><del><strong>Short-term</strong></del>: The user cannot select a dataset, it is predefined (e.g. a case study).</li>
+<li><del><strong>Short-term</strong></del>: The user cannot select a dataset, it is predefined (e.g. a case study). <em>Implemented in the <a href="http://enram.github.io/bird-migration-flow-visualization/viz/">bird flowviz v1</a>.</em></li>
 <li><strong>Mid-term</strong>: The user can select the start date and a fixed period (e.g. one week) of data is loaded.</li>
 <li><strong>Long-term</strong>: The user can select the start and end date in the data.</li>
 </ul>
@@ -322,7 +322,7 @@ div.tocify {
 <div id="time-indication" class="section level4">
 <h4>Time indication</h4>
 <ul>
-<li><del><strong>Short-term</strong></del>: The UTC date and time of the visualized data is indicated. This datetime is updated automatically if the visualization is progressing.</li>
+<li><del><strong>Short-term</strong></del>: The UTC date and time of the visualized data is indicated. This datetime is updated automatically if the visualization is progressing. <em>Implemented in the <a href="http://enram.github.io/bird-migration-flow-visualization/viz/">bird flowviz v1</a>.</em></li>
 <li><del><strong>Mid-term</strong></del>: Same as short-term goal.</li>
 <li><del><strong>Long-term</strong></del>: Same as short-term goal.</li>
 </ul>
@@ -330,7 +330,7 @@ div.tocify {
 <div id="time-selection" class="section level4">
 <h4>Time selection</h4>
 <ul>
-<li><del><strong>Short-term</strong></del>: The user can select a certain time interval to start the visualization from using a text box.</li>
+<li><del><strong>Short-term</strong></del>: The user can select a certain time interval to start the visualization from using a text box. <em>Implemented in the <a href="http://enram.github.io/bird-migration-flow-visualization/viz/">bird flowviz v1</a>.</em></li>
 <li><del><strong>Mid-term</strong></del>: Same as short-term goal.</li>
 <li><del><strong>Long-term</strong></del>: Same as short-term goal.</li>
 </ul>
@@ -338,7 +338,7 @@ div.tocify {
 <div id="time-navigation" class="section level4">
 <h4>Time navigation</h4>
 <ul>
-<li><del><strong>Short-term</strong></del>: The user can navigate through time using forward and backward buttons.</li>
+<li><del><strong>Short-term</strong></del>: The user can navigate through time using forward and backward buttons. <em>Implemented in the <a href="http://enram.github.io/bird-migration-flow-visualization/viz/">bird flowviz v1</a>.</em></li>
 <li><strong>Mid-term</strong>: The user can navigate through time by dragging a slider.</li>
 <li><strong>Long-term</strong>: Same as mid-term goal.</li>
 </ul>
@@ -346,7 +346,7 @@ div.tocify {
 <div id="playpause-time-progression" class="section level4">
 <h4>Play/pause time progression</h4>
 <ul>
-<li><del><strong>Short-term</strong></del>: The user can start and pause the progression through time.</li>
+<li><del><strong>Short-term</strong></del>: The user can start and pause the progression through time. <em>Implemented in the <a href="http://enram.github.io/bird-migration-flow-visualization/viz/">bird flowviz v1</a>.</em></li>
 <li><del><strong>Mid-term</strong></del>: Same as short-term goal.</li>
 <li><del><strong>Long-term</strong></del>: Same as short-term goal.</li>
 </ul>
@@ -357,7 +357,7 @@ div.tocify {
 <div id="interpolation" class="section level4">
 <h4>Interpolation</h4>
 <ul>
-<li><del><strong>Short-term</strong></del>: Data are interpolated using a pixel grid.</li>
+<li><del><strong>Short-term</strong></del>: Data are interpolated using a pixel grid. <em>Implemented in the <a href="http://enram.github.io/bird-migration-flow-visualization/viz/">bird flowviz v1</a>.</em></li>
 <li><strong>Mid-term</strong>: Data are interpolated more efficiently by using a larger grid (e.g. 5 pixels) and/or by precalculating certain aspects of the interpolation (e.g. radar contributions).</li>
 <li><strong>Long-term</strong>: Data are interpolated using a coordinate grid (e.g. by 0.5 degrees). The interpolation is now independent of screen size, but depends on what area is covered.</li>
 </ul>
@@ -365,7 +365,7 @@ div.tocify {
 <div id="direction-and-speed-interpolation" class="section level4">
 <h4>Direction and speed (interpolation)</h4>
 <ul>
-<li><del><strong>Short-term</strong></del>: Direction and speed of the migration are interpolated over the whole area as two-dimensional vectors. The resulting animation speed is arbitrary.</li>
+<li><del><strong>Short-term</strong></del>: Direction and speed of the migration are interpolated over the whole area as two-dimensional vectors. The resulting animation speed is arbitrary. <em>Implemented in the <a href="http://enram.github.io/bird-migration-flow-visualization/viz/">bird flowviz v1</a>.</em></li>
 <li><strong>Mid-term</strong>: The animation speed approximates the actual ground speed (but animated faster because e.g. 20 minutes are shown in 1 second).</li>
 <li><strong>Long-term</strong>: The animation speed is the actual ground speed: it scales with the map, but the user can speed up the animation (x10, x25 or x100).</li>
 </ul>
@@ -373,7 +373,7 @@ div.tocify {
 <div id="altitude-aggregation" class="section level4">
 <h4>Altitude (aggregation)</h4>
 <ul>
-<li><del><strong>Short-term</strong></del>: The data are aggregated in altitude bands, but only one band is shown at the time.</li>
+<li><del><strong>Short-term</strong></del>: The data are aggregated in altitude bands, but only one band is shown at the time. <em>Implemented in the <a href="http://enram.github.io/bird-migration-flow-visualization/viz/">bird flowviz v1</a>.</em></li>
 <li><del><strong>Mid-term</strong></del>: Same as the short-term goal.</li>
 <li><strong>Long-term</strong>: Multiple bands are shown at the time, on top of each other or next to each other. Or user can select level of aggregation.</li>
 </ul>

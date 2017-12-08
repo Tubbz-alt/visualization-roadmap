@@ -49,7 +49,7 @@ This document is a summary of discussions and ideas by Working Group 3 (Visualiz
 
 Data = bird migration altitude profiles automatically derived from weather radar data. Ideally, these data are accessible as **open data**.
 
-* ~~**Short-term**~~: Data from spring 2013 migration case study, covering 5 radars (from Belgium and the Netherlands) over 7 days. This dataset is available at https://github.com/enram/case-study/tree/master/data/bird-migration-altitude-profiles.
+* ~~**Short-term**~~: Data from spring 2013 migration case study, covering 5 radars (from Belgium and the Netherlands) over 7 days. _This dataset is [available](https://github.com/enram/case-study/tree/master/data/bird-migration-altitude-profiles)._
 * **Mid-term**: Data from a migration case study within the northwest flyway incorporating data from more than 5 operational weather radars from three or more countries.
 * **Long-term**: Near real-time data, covering all of Europe.
 
@@ -63,7 +63,7 @@ Data = insect migration altitude profiles automatically derived from weather rad
 
 ### Radar location data (open data)
 
-* ~~**Short-term**~~: Radar locations (5) covering the spring 2013 migration case study. This dataset is available at https://github.com/enram/case-study/tree/master/data/radars.
+* ~~**Short-term**~~: Radar locations (5) covering the spring 2013 migration case study. _This dataset is [available](https://github.com/enram/case-study/tree/master/data/radars)._
 * **Mid-term**: Radar locations covering the mid-term migration case study. This information will be available as metadata in the HDF files for the bird data. Once developed, easy to apply for long-term too.
 * **Long-term**: Radar location covering all of Europe (= entire OPERA network).
 
@@ -71,9 +71,9 @@ Data = insect migration altitude profiles automatically derived from weather rad
 
 The basemap would show country/lake borders, potentially topography such as mountain ranges.
 
-* ~~**Short-term**~~: Basemap covering the spring 2013 migration case study. This dataset is available at https://github.com/enram/case-study/tree/master/data/basemap.
-* ~~**Mid-term**~~: Basemap covering the migration case study. This dataset can be derived from https://github.com/enram/case-study/tree/master/data/basemap.
-* ~~**Long-term**~~: Basemap covering all of Europe. This dataset can be derived from https://github.com/enram/case-study/tree/master/data/basemap.
+* ~~**Short-term**~~: Basemap covering the spring 2013 migration case study. _This dataset is [available](https://github.com/enram/case-study/tree/master/data/basemap)._
+* ~~**Mid-term**~~: Basemap covering the migration case study. _This dataset can be [derived]( https://github.com/enram/case-study/tree/master/data/basemap)._
+* ~~**Long-term**~~: Basemap covering all of Europe. _This dataset can be [derived]( https://github.com/enram/case-study/tree/master/data/basemap)._
 
 ### Wind data (open data)
 
@@ -91,19 +91,19 @@ Data = u and v wind components at several pressure levels, preferably from a hom
 
 The basemap should be styled in light grey (e.g. [Positron](http://content.stamen.com/files/cartodb-squares-positron.jpg)), to easily render visualizations on top and display the visualization in bright rooms (e.g. for presentations).
 
-* ~~**Short-term**~~: Vector data showing contours of countries and lakes.
+* ~~**Short-term**~~: Vector data showing contours of countries and lakes. _Implemented in the [bird flowviz v2](http://enram.github.io/bird-migration-flow-visualization/viz/)._
 * **Mid-term**: OpenStreetMap data, highlighting mountains and water bodies.
 * **Long-term**: Same as mid-term goal.
 
 #### Map zooming and panning
 
-* ~~**Short-term**~~: Fixed map covering use case area.
-* ~~**Mid-term**~~: Fixed map covering use case area. Switching between use cases reloads map.
+* ~~**Short-term**~~: Fixed map covering use case area. _Implemented in the [bird flowviz v1](http://enram.github.io/bird-migration-flow-visualization/viz/)._
+* ~~**Mid-term**~~: Fixed map covering use case area. Switching between use cases reloads map. _Implemented in the [bird flowviz v2](http://enram.github.io/bird-migration-flow-visualization/viz/)._
 * **Long-term**: Map covers all of Europe, at which point it becomes interesting to allow zooming and panning.
 
 #### Data selection
 
-* ~~**Short-term**~~: The user cannot select a dataset, it is predefined (e.g. a case study).
+* ~~**Short-term**~~: The user cannot select a dataset, it is predefined (e.g. a case study). _Implemented in the [bird flowviz v1](http://enram.github.io/bird-migration-flow-visualization/viz/)._
 * **Mid-term**: The user can select the start date and a fixed period (e.g. one week) of data is loaded.
 * **Long-term**: The user can select the start and end date in the data.
 
@@ -111,25 +111,25 @@ The basemap should be styled in light grey (e.g. [Positron](http://content.stame
 
 #### Time indication
 
-* ~~**Short-term**~~: The UTC date and time of the visualized data is indicated. This datetime is updated automatically if the visualization is progressing.
+* ~~**Short-term**~~: The UTC date and time of the visualized data is indicated. This datetime is updated automatically if the visualization is progressing. _Implemented in the [bird flowviz v1](http://enram.github.io/bird-migration-flow-visualization/viz/)._
 * ~~**Mid-term**~~: Same as short-term goal.
 * ~~**Long-term**~~: Same as short-term goal.
 
 #### Time selection
 
-* ~~**Short-term**~~: The user can select a certain time interval to start the visualization from using a text box.
+* ~~**Short-term**~~: The user can select a certain time interval to start the visualization from using a text box. _Implemented in the [bird flowviz v1](http://enram.github.io/bird-migration-flow-visualization/viz/)._
 * ~~**Mid-term**~~: Same as short-term goal.
 * ~~**Long-term**~~: Same as short-term goal.
 
 #### Time navigation
 
-* ~~**Short-term**~~: The user can navigate through time using forward and backward buttons.
+* ~~**Short-term**~~: The user can navigate through time using forward and backward buttons. _Implemented in the [bird flowviz v1](http://enram.github.io/bird-migration-flow-visualization/viz/)._
 * **Mid-term**: The user can navigate through time by dragging a slider.
 * **Long-term**: Same as mid-term goal.
 
 #### Play/pause time progression
 
-* ~~**Short-term**~~: The user can start and pause the progression through time.
+* ~~**Short-term**~~: The user can start and pause the progression through time. _Implemented in the [bird flowviz v1](http://enram.github.io/bird-migration-flow-visualization/viz/)._
 * ~~**Mid-term**~~: Same as short-term goal.
 * ~~**Long-term**~~: Same as short-term goal.
 
@@ -137,19 +137,19 @@ The basemap should be styled in light grey (e.g. [Positron](http://content.stame
 
 #### Interpolation
 
-* ~~**Short-term**~~: Data are interpolated using a pixel grid.
+* ~~**Short-term**~~: Data are interpolated using a pixel grid. _Implemented in the [bird flowviz v1](http://enram.github.io/bird-migration-flow-visualization/viz/)._
 * **Mid-term**: Data are interpolated more efficiently by using a larger grid (e.g. 5 pixels) and/or by precalculating certain aspects of the interpolation (e.g. radar contributions).
 * **Long-term**: Data are interpolated using a coordinate grid (e.g. by 0.5 degrees). The interpolation is now independent of screen size, but depends on what area is covered.
 
 #### Direction and speed (interpolation)
 
-* ~~**Short-term**~~: Direction and speed of the migration are interpolated over the whole area as two-dimensional vectors. The resulting animation speed is arbitrary.
+* ~~**Short-term**~~: Direction and speed of the migration are interpolated over the whole area as two-dimensional vectors. The resulting animation speed is arbitrary. _Implemented in the [bird flowviz v1](http://enram.github.io/bird-migration-flow-visualization/viz/)._
 * **Mid-term**: The animation speed approximates the actual ground speed (but animated faster because e.g. 20 minutes are shown in 1 second).
 * **Long-term**: The animation speed is the actual ground speed: it scales with the map, but the user can speed up the animation (x10, x25 or x100).
 
 #### Altitude (aggregation)
 
-* ~~**Short-term**~~: The data are aggregated in altitude bands, but only one band is shown at the time.
+* ~~**Short-term**~~: The data are aggregated in altitude bands, but only one band is shown at the time. _Implemented in the [bird flowviz v1](http://enram.github.io/bird-migration-flow-visualization/viz/)._
 * ~~**Mid-term**~~: Same as the short-term goal.
 * **Long-term**: Multiple bands are shown at the time, on top of each other or next to each other. Or user can select level of aggregation.
 
