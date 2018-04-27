@@ -1,5 +1,7 @@
 # Roadmap for an animal migration explorer using weather radar data
 
+[![DOI](https://zenodo.org/badge/113229327.svg)](https://zenodo.org/badge/latestdoi/113229327)
+
 Read the roadmap document at https://enram.github.io/visualization-roadmap/
 
 ## Repo structure
