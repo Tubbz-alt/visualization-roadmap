@@ -19,8 +19,8 @@ The main document is [src/roadmap.Rmd](src/roadmap.Rmd). Files indicated with `G
 │   ├── custom.css          : Some custom styling
 │   └── images              : Images used in the document
 │
-├── docs
-│   └── index.html          : HTML version of the roadmap, hosted on GitHub pages GENERATED
+└── docs
+    └── index.html          : HTML version of the roadmap, hosted on GitHub pages GENERATED
 ```
 
 ## Feedback
